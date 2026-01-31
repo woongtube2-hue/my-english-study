@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>English Study - Focus Mode</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .controls { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+        
+        /* 암기 모드 스타일 */
+        .blur { filter: blur(5px); transition: filter 0.3s; }
+        .blur:hover { filter: blur(0); } /* 마우스 올리면 살짝 보임 */
+        
+        button { padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; transition: 0.2s; font-weight: bold; }
+        .btn-tts { background: #007bff; color: white; }
+        .btn-hide { background: #6c757d; color: white; }
+        button:hover { opacity: 0.8; }
+        
+        #content { white-space: pre-wrap; font-size: 1.1rem; }
+        .highlight-script { color: #e67e22; font-weight: bold; border-left: 4px solid #e67e22; padding-left: 10px; display: block; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+    <h1>🎙️ English Practice Room</h1>
+    
+    <div class="controls">
+        <select id="day-select" onchange="loadScript(this.value)" style="padding: 8px;">
+            <option value="1">Day 1: Parks</option>
+        </select>
+        <button class="btn-tts" onclick="speakText()">🔊 전체 읽기</button>
+        <button class="btn-hide" onclick="toggleHide()">🙈 암기 모드 ON/OFF</button>
+    </div>
+
+    <div class="card">
+        <div id="content">스크립트를 불러오는 중...</div>
+    </div>
+
+    <script>
+        let currentRawText = "";
+
+        // 1. 파일 불러오기
+        async function loadScript(day) {
+            const contentDiv = document.getElementById('content');
+            try {
+                const response = await fetch(`./script/day${day}.txt`);
+                currentRawText = await response.text();
+                
+                // 가독성을 위해 Script: 부분만 디자인 적용
+                const formattedText = currentRawText.replace(/Script:(.*)/g, '<span class="highlight-script">Script:$1</span>');
+                contentDiv.innerHTML = formattedText;
+            } catch (error) {
+                contentDiv.innerText = "파일을 찾을 수 없습니다.";
+            }
+        }
+
+        // 2. 음성 합성 (TTS) 기능
+        function speakText() {
+            // Script: 이후의 문장들만 추출해서 읽기
+            const scriptMatches = currentRawText.match(/Script:(.*)/g);
+            if (!scriptMatches) return;
+
+            const textToSpeak = scriptMatches.map(s => s.replace('Script:', '')).join('. ');
+            
+            const utterance = new SpeechSynthesisUtterance(textToSpeak);
+            utterance.lang = 'en-US'; // 영어 발음 설정
+            utterance.rate = 0.9;     // 속도 조절 (약간 천천히)
+            window.speechSynthesis.speak(utterance);
+        }
+
+        // 3. 암기 모드 (Toggle) 기능
+        function toggleHide() {
+            const scripts = document.querySelectorAll('.highlight-script');
+            scripts.forEach(s => s.classList.toggle('blur'));
+        }
+
+        window.onload = () => loadScript(1);
+    </script>
+</body>
+</html>
