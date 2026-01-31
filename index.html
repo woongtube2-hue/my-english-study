@@ -4,101 +4,106 @@
     <meta charset="UTF-8">
     <title>English Study - Individual Play</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
-        .controls { margin-bottom: 20px; display: flex; gap: 10px; }
-        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; position: relative; }
-        
-        /* 제목 스타일 */
-        .day-title { color: #2c3e50; font-size: 1.8rem; margin-bottom: 20px; border-bottom: 3px solid #3498db; display: inline-block; }
-        
-        /* 문제별 섹션 */
-        .question-block { margin-bottom: 30px; padding: 15px; border-left: 5px solid #eee; }
-        .q-text { font-weight: bold; color: #2980b9; font-size: 1.1rem; margin-bottom: 10px; }
-        .s-text { background: #fdfdfd; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
-        
-        /* 버튼 스타일 */
-        button { cursor: pointer; border: none; border-radius: 5px; transition: 0.2s; }
-        .btn-play { background: #3498db; color: white; padding: 5px 10px; font-size: 0.8rem; margin-bottom: 5px; }
-        .blur { filter: blur(5px); }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f4f7f6; }
+        .day-header { text-align: center; margin-bottom: 30px; }
+        .day-header h1 { color: #2c3e50; font-size: 2rem; }
+        .card { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 25px; border-left: 6px solid #3498db; }
+        .q-title { color: #e67e22; font-weight: bold; font-size: 1.2rem; margin-bottom: 5px; }
+        .q-question { color: #34495e; font-style: italic; margin-bottom: 15px; background: #f9f9f9; padding: 10px; border-radius: 5px; }
+        .s-box { background: #fff; border: 1px solid #eee; padding: 15px; border-radius: 8px; white-space: pre-wrap; margin-top: 10px; }
+        .btn-play { background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 20px; cursor: pointer; font-weight: bold; margin-bottom: 10px; }
+        .btn-play:hover { background: #2980b9; }
+        .blur { filter: blur(5px); transition: 0.3s; }
         .blur:hover { filter: blur(0); }
+        .controls { margin-bottom: 20px; display: flex; gap: 10px; justify-content: center; }
     </style>
 </head>
 <body>
 
-    <div id="header-area">
-        <h1 id="main-title">로딩 중...</h1>
+    <div class="day-header">
+        <h1 id="main-title">학습 파일을 선택하세요</h1>
         <div class="controls">
-            <select id="day-select" onchange="loadScript(this.value)"></select>
-            <button onclick="toggleAllBlur()" style="background:#6c757d; color:white; padding:8px;">🙈 전체 암기모드</button>
+            <select id="day-select" onchange="loadScript(this.value)">
+            <option value="1">Day 1: 공원(Parks)</option>
+            <option value="2">Day 2: 해변(seas)</option>
+        </select>
+            <button onclick="toggleBlur()" style="padding: 8px 15px; border-radius: 5px; cursor: pointer;">🙈 암기모드 ON/OFF</button>
         </div>
     </div>
 
     <div id="container"></div>
 
     <script>
-        let sections = []; // 파싱된 데이터를 담을 배열
+        let currentSections = [];
 
         async function loadScript(day) {
             try {
                 const response = await fetch(`./script/day${day}.txt`);
                 const text = await response.text();
-                parseAndRender(text);
-            } catch (e) { document.getElementById('container').innerText = "파일을 찾을 수 없습니다."; }
+                parseContent(text);
+            } catch (e) { document.getElementById('container').innerText = "파일을 불러올 수 없습니다."; }
         }
 
-        function parseAndRender(rawText) {
-            const container = document.getElementById('container');
+        function parseContent(rawText) {
             const lines = rawText.split('\n');
-            
-            // 1. 첫 줄 제목 처리
-            document.getElementById('main-title').innerText = lines[0].replace(/🌳/g, '').trim();
-            
-            container.innerHTML = "";
-            sections = [];
-            let currentSection = null;
+            document.getElementById('main-title').innerText = lines[0].replace('🌳', '').trim(); // 첫 줄 제목[cite: 1]
 
-            // 2. 내용 파싱 로직
+            const container = document.getElementById('container');
+            container.innerHTML = "";
+            currentSections = [];
+            
+            let tempSection = null;
+
             lines.slice(1).forEach(line => {
-                if (line.startsWith('Q')) {
-                    if (currentSection) sections.push(currentSection);
-                    currentSection = { title: line, question: "", script: "" };
-                } else if (line.startsWith('Question:')) {
-                    currentSection.question = line.replace('Question:', '').trim();
-                } else if (line.startsWith('Script:')) {
-                    currentSection.script = line.replace('Script:', '').trim() + "\n";
-                } else if (currentSection && line.trim() !== "") {
-                    // Q1 다음 Q2가 나오기 전까지 모든 내용을 Script에 추가
-                    currentSection.script += line.trim() + "\n";
+                const trimmed = line.trim();
+                if (!trimmed) return;
+
+                // Q1, Q2 등으로 시작하면 새로운 섹션 시작
+                if (line.match(/^Q\d+/)) {
+                    if (tempSection) currentSections.push(tempSection);
+                    tempSection = { title: trimmed, question: "", script: "" };
+                } 
+                else if (line.startsWith('Question:')) {
+                    tempSection.question = line.replace('Question:', '').trim(); // 질문 내용 저장[cite: 2, 11, 19]
+                } 
+                else if (line.startsWith('Script:')) {
+                    tempSection.script = line.replace('Script:', '').trim() + "\n"; // 답변 시작[cite: 3, 12, 19]
+                } 
+                else if (tempSection) {
+                    // Script: 이후 다음 Q가 나오기 전까지 모든 줄을 합침
+                    tempSection.script += trimmed + "\n";
                 }
             });
-            if (currentSection) sections.push(currentSection);
+            if (tempSection) currentSections.push(tempSection);
 
-            // 3. HTML 생성
-            sections.forEach((sec, index) => {
-                const div = document.createElement('div');
-                div.className = 'card';
-                div.innerHTML = `
-                    <div class="q-text">${sec.title}</div>
-                    <p><strong>Q:</strong> ${sec.question}</p>
-                    <button class="btn-play" onclick="speakSection(${index})">▶ 이 문제 답변 듣기</button>
-                    <div class="s-text highlight-script">${sec.script}</div>
+            render(currentSections);
+        }
+
+        function render(data) {
+            const container = document.getElementById('container');
+            data.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="q-title">${item.title}</div>
+                    <div class="q-question"><strong>Question:</strong> ${item.question}</div>
+                    <button class="btn-play" onclick="playAudio(${index})">▶ 이 문제 답변 듣기</button>
+                    <div class="s-box highlight-area blur">${item.script}</div>
                 `;
-                container.appendChild(div);
+                container.appendChild(card);
             });
         }
 
-        // 특정 섹션만 읽어주는 TTS
-        function speakSection(index) {
-            window.speechSynthesis.cancel(); // 기존 재생 중단
-            const text = sections[index].script;
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'en-US';
-            utterance.rate = 0.9;
-            window.speechSynthesis.speak(utterance);
+        function playAudio(index) {
+            window.speechSynthesis.cancel(); // 이전 재생 취소
+            const speech = new SpeechSynthesisUtterance(currentSections[index].script);
+            speech.lang = 'en-US';
+            speech.rate = 0.85; // 공부하기 좋게 약간 천천히
+            window.speechSynthesis.speak(speech);
         }
 
-        function toggleAllBlur() {
-            document.querySelectorAll('.highlight-script').forEach(el => el.classList.toggle('blur'));
+        function toggleBlur() {
+            document.querySelectorAll('.highlight-area').forEach(el => el.classList.toggle('blur'));
         }
 
         window.onload = () => loadScript(1);
