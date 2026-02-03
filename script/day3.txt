@@ -1,4 +1,4 @@
-🏠 Day 3: 집(My Home) 테마 최종 스크립트 정리
+🏠 Day 3: 집(My Home)
 Q1. [Description] 집 구조 및 특징 묘사
 Question: Tell me about the house or apartment you live in. Where is it located? What does it look like and how many rooms are there?
 
