@@ -2,7 +2,7 @@
 Q1. [Description] 자주 가는 공원 묘사
 Question: Tell me about a park that you often visit. Where is it located and what does it look like? Give me a detailed description of that place.
 
-Script: That's a good question. I’d love to tell you about my favorite park. As I mentioned, I usually visit a park right in my neighborhood.
+Script: That's a good question. I’d love to tell you about my favorite park. Well, I usually visit a park right in my neighborhood.
 
 To be specific, it’s just about a 10-minute walk from my place. The park has a well-maintained running track. You know, running is all the rage these days in Korea! When I’m stressed out, I just go there and run. Personally, I prefer going there at night because I can soak up the peace and quiet.
 
