@@ -1,29 +1,27 @@
-📅 Day 6: 가전제품 (Household Appliances)
-Q1. [Description] 가전제품 묘사
-Question: What kind of appliances do you have in your home? Which one do you use most often?
+📅 Day 6: 가전제품 (Appliances)
+Q1. [Description]
+Question: What kind of appliances do you have in your home? Which one do you use most often, and why is it important to you?
 
-Script: Actually, there are two appliances I can’t live without. One is my robot vacuum, and the other is my all-in-one washer and dryer. 
+Script: Well, honestly, there are two appliances in my house that I absolutely cannot live without.
 
-First, the robot vacuum is a life-changer. I’m always busy, so I love that it cleans the floor automatically while I work. Also, my washing machine is a combo unit. It handles both washing and drying at the same time. I just press one button and it’s all done. It saves me so much time and effort.
+One is my robot vacuum, and the other is my all-in-one washer and dryer. As a busy person, the robot vacuum is a total life-changer because it cleans the floor automatically while I work.
 
-In short, it's the most useful appliance I have, and I use it every single day.
+And the washer-dryer combo is just so convenient. I just press one button and the whole process is done. In short, it's the most useful appliance I have, and I use it every single day.
 
-Q2. [Comparison] 과거 vs 현재 가전제품 비교
-Question: How are appliances different now compared to the past? What are the biggest changes?
+Q2. [Comparison]
+Question: How are household appliances different now compared to the past? What are the biggest changes you have noticed?
 
-Script: It’s interesting to think about how much appliances have changed over the years. 
+Script: It’s actually quite mind-blowing to think about how much appliances have changed over the years.
 
-Back then, vacuum cleaners were quite inconvenient. They were heavy, and you always had to plug them into an outlet. You had to do all the work yourself. 
-On the other hand, modern appliances are incredibly smart. Like I said, we have robot vacuums now that do everything for us. What’s even better is that I can control everything using an app called 'SmartThings.' Even when I’m not at home, I can start the vacuum or the laundry with just a few taps on my phone.
+Back in the day, vacuums were such a hassle—they were heavy and you always had to deal with cords and outlets.
 
-Looking back, I think technology has made our lives much more convenient than before.
+But now, things are so much smarter. I mean, I can control everything from my phone using an app called "SmartThings." Even when I’m not at home, I can start the laundry or the vacuum with just a few taps. Looking back, I think technology has made our lives much more convenient than ever before.
 
-Q3. [Problem/Experience] 가전제품 고장/해결 경험
-Question: Tell me about a time when an appliance broke down. What was the problem and how did you fix it?
+Q3. [Problem/Experience]
+Question: Tell me about a time when an appliance broke down or stopped working. What was the problem and how did you fix it?
 
-Script: I remember a time when my washing machine stopped working during a very cold winter. The temperature dropped so low that the drain pipe in the balcony completely froze up. 
+Script: Oh, I remember this one time during a freezing cold winter when my washing machine stopped working.
 
-Out of nowhere, the machine stopped in the middle of a cycle and showed an error message. I realized that the water couldn't drain out because of the ice. I was totally panicked because it was full of wet clothes and water. 
-To fix the problem, I had to manually drain the water and use hot water to melt the ice. After a few hours, I finally managed to unclog it. 
+The temperature dropped so low that the drain pipe on my balcony completely froze up. Right in the middle of a cycle, the machine just stopped and showed an error message.
 
-Looking back, it was a very stressful day, but I’m glad I could fix it myself. Now, I always make sure to keep the balcony warm during the winter.
+I was in a total panic because it was full of wet clothes and freezing water! I had to manually drain the water and use hot water to melt the ice. It was a nightmare at the time, but I’m glad I could fix it myself. Now, I always make sure to keep the balcony warm!

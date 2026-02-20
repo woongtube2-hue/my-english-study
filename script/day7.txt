@@ -1,30 +1,27 @@
-📅 Day 7: 여행 (Travel) - [최종 정리]
-Q1. [Description] 좋아하는 여행지: 산과 별
-Question: Where do you usually go for trips in your country? Describe your favorite travel destination.
+📅 Day 7: 여행 (Travel)
+Q1. [Description]
+Question: Where do you usually go for trips in your country? Describe your favorite travel destination and tell me why you like it.
 
-Script:
-Actually, I prefer going to the mountains rather than the beach these days. I used to like the ocean more, but my preference has changed over time.
+Script: Well, let me see... these days, I actually prefer going to the mountains rather than the beach.
 
-One of my favorite memories is going camping with my family to see the stars from the mountainside at night. At first, I was really disappointed because it was so cloudy that I couldn't see anything. However, a miracle happened, and the sky cleared up for exactly 30 minutes.
+I used to like the ocean more, but my preference has definitely changed over time. One of my favorite memories is going camping with my family to see the stars from the mountainside.
 
-In those 30 minutes, I saw more stars than I have seen in my entire life. It was a truly breathtaking and unforgettable experience. That is why I love visiting the mountains whenever I have the chance.
+At first, it was so cloudy that I was really disappointed. But then, a miracle happened and the sky cleared up for exactly 30 minutes. In those 30 minutes, I saw more stars than I've seen in my entire life. It was a truly breathtaking and unforgettable experience.
 
-Q2. [Past Experience] 기억에 남는 여행: 스위스 신혼여행
-Question: Tell me about a memorable trip you had. Where did you go and what happened?
+Q2. [Past Experience]
+Question: Tell me about the most memorable trip you have ever taken. Where did you go, who were you with, and what happened?
 
-Script:
-If I had to pick the most memorable trip of my life, it would definitely be my honeymoon to Switzerland. My wife and I went there last March, and it was like a dream.
+Script: If I had to pick the most memorable trip of my life, it would hands down be my honeymoon to Switzerland.
 
-Everything about Switzerland was perfect, from the snowy mountains to the crystal-clear lakes. We spent most of our time enjoying the amazing scenery and taking a lot of pictures. It was the perfect getaway to recharge our batteries and get away from the busy city life.
+My wife and I went there last March, and honestly, it felt like a dream. Everything about Switzerland was perfect—from the snowy mountains to the crystal-clear lakes.
 
-It was the most romantic and relaxing trip I’ve ever had. I still look at the photos from Switzerland whenever I feel stressed at work.
+We spent most of our time just soaking in the amazing scenery and taking tons of photos. It was the perfect getaway to recharge our batteries. It was the most romantic and relaxing trip I’ve ever had. I still look at those photos whenever I feel stressed at work.
 
-Q3. [Comparison] 과거 vs 현재 여행 비교
-Question: How are the trips you take now different from the ones you took as a child?
+Q3. [Comparison]
+Question: How are the trips you take now different from the ones you took when you were a child? How has your travel style changed?
 
-Script:
-It’s interesting to see how my travel style has changed over the years. When I was a child, I usually went on passive trips. I either followed my parents or went on package tours where everything was already decided for me.
+Script: It’s really interesting to see how my travel style has evolved over the years.
 
-On the other hand, I now strongly prefer free travel and taking an active role in planning. I love creating my own schedule and finding hidden spots that are not in the guidebooks.
+When I was a kid, I was a very passive traveler—I just followed my parents on package tours where everything was decided for me.
 
-I think I enjoy the process of organizing and optimizing my travel plans because I like everything to be perfect. It’s much more rewarding to travel at my own pace with my wife rather than following a fixed group schedule.
+But now, I strongly prefer "free travel" where I take the lead in planning. I love creating my own schedule and finding hidden spots that are not in the guidebooks. I think I enjoy the process of optimizing my plans because I like everything to be perfect. It’s much more rewarding to travel at my own pace with my wife.

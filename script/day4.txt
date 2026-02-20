@@ -1,29 +1,27 @@
-🎬 Day 4: 영화 관람(Movies)
-Q1. [Description] 좋아하는 영화 취향
-Question: What kind of movies do you like? Tell me about your taste in movies.
+📅 Day 4: 영화 관람 (Movies)
+Q1. [Description]
+Question: You indicated that you like watching movies. What kind of movies do you like? Who are your favorite actors? Tell me about your taste in movies in detail.
 
-Script: Actually, I’m a big fan of comedy movies. I prefer something light that I can enjoy without thinking too much.
+Script: Actually, I’m a huge fan of lighthearted comedy movies.
 
-Specifically, I love movies that are funny and easy to follow. As a programmer, I deal with complex problems all day at work. So, when I watch a movie, I just want to laugh and relax my brain.
+As a programmer, I deal with complex, brain-draining problems all day long. So when I watch a movie, I just want to laugh and relax my brain for a bit. I prefer something easy to follow that doesn't make me think too much.
 
-So, overall, simple and funny comedy movies are my absolute favorite.
+So, yeah, simple and funny comedy movies are definitely my absolute favorite.
 
-Q2. [Routine/Detail] 영화 관람 루틴
-Question: What do you usually do before and after watching a movie? Describe your routine.
+Q2. [Routine]
+Question: What do you usually do before and after watching a movie? Do you go to the theater or watch at home? Describe your movie-watching routine.
 
-Script: To tell you the truth, I usually watch movies at home with my wife these days. We have a very simple routine for our movie nights.
+Script: To tell you the truth, I usually watch movies at home with my wife these days.
 
-First, before the movie starts, we always order some delivery food. Our favorite choice is usually fried chicken and beer. And then, we turn off all the lights to make it like a theater. After the movie, we usually talk about our favorite scenes before going to sleep.
+We have this simple but perfect routine. Before the movie starts, we always order some delivery food—usually fried chicken and beer, which is the best combo! Then, we turn off all the lights to get that theater vibe.
 
-So, that's my typical movie routine. It's nothing special, but it's very relaxing.
+After it's over, we stay up a bit talking about our favorite scenes. It's nothing special, but it's our way of relaxing and spending quality time together.
 
-Q3. [Past Experience] 최근에 본 영화
-Question: Tell me about the last movie you watched. Who did you watch it with, and how was it?
+Q3. [Past Experience]
+Question: Tell me about the last movie you watched. Who did you watch it with, and what was the story about? Why was it memorable?
 
-Script: Actually, I watched a movie on Netflix with my wife a few days ago. I don't remember the exact title, but it was a very funny comedy movie.
+Script: Oh, I actually watched a movie on Netflix a few days ago with my wife.
 
-The story was about a woman. She was told that she was going to die soon. So, she decided to spend all her money and live a very fancy life.
+It was this hilarious movie called "Last Holiday." It's about a woman who is told she's dying soon, so she decides to spend all her money and live a very fancy life.
 
-But, the hilarious part was that she wasn't actually dying! It was just a mistake by the hospital, and it was a minor illness. It was such a heartwarming and happy ending.
-
-Oh! Wait a second. I just remembered the title! It’s called 'Last Holiday.' You should check it out when you have time, Eva!
+But—get this—it was all just a hospital mistake! She wasn't dying at all, it was just a minor illness. It was such a heartwarming and happy ending. You should definitely check it out when you have time, Eva!

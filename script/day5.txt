@@ -1,40 +1,27 @@
-🏃 Day 5: 조깅 및 걷기 (Jogging/Walking)
-Q1. [Description] 장소 묘사
-Question: Where do you usually go for jogging? Describe that place.
+📅 Day 5: 조깅 및 걷기 (Jogging)
+Q1. [Description]
+Question: You mentioned that you go jogging or walking. Where do you usually go for jogging? Describe that place in detail.
 
-Script: Actually, I usually go to a local park near my apartment.
-It’s not a huge park, but it’s very clean and well-maintained.
+Script: Actually, I usually head to a local park near my apartment for a walk or jog.
 
-To be specific, there is a long walking trail that is perfect for jogging.
-What I like most about it is the fresh air from all the trees and flowers.
-During the weekends, I see many families and couples enjoying their time there.
-It’s a very peaceful place, and I feel relaxed whenever I go there.
+It’s not a massive park, but it’s always spotless and well-maintained. What I really love is the long walking trail surrounded by trees and flowers—the air is so fresh!
 
-All in all, this park is my favorite spot to clear my head.
+On weekends, it’s full of families and couples, and the atmosphere is just so peaceful. All in all, this park is my favorite spot to clear my head after work.
 
-Q2. [Routine/Detail] 루틴 및 준비물
-Question: When do you usually go for a walk? What do you bring with you?
+Q2. [Routine]
+Question: When do you usually go for a walk? What do you bring with you? Tell me about your walking routine.
 
-Script: As I mentioned before, I try to go for a walk every evening after work.
-Mainly because I sit at my desk all day as a programmer, so I really need to move my body.
+Script: As I mentioned before, I try to go for a walk every single evening after work.
 
-Normally, I go there with my wife.
-We talk about our day while walking, and it’s a great way to spend quality time together.
-Before leaving, I always put on my running shoes and bring my smartphone.
-Lately, I’ve been listening to English podcasts while walking to kill two birds with one stone.
+Since I’m a programmer and sit at a desk all day, I really need to get my body moving. I usually go with my wife, and we catch up on each other's day. I always make sure to wear my running shoes and bring my phone.
 
-In short, this evening walk is a very important part of my daily life.
+Lately, I’ve been listening to English podcasts while walking—trying to kill two birds with one stone, you know? In short, this evening walk has become a very important part of my daily life.
 
-Q3. [Past Experience] 특별한 경험 (비 소동)
-Question: Tell me about a memorable experience you had while jogging.
+Q3. [Past Experience]
+Question: Tell me about a memorable experience you had while jogging or walking. What happened and why was it so memorable?
 
-Script: I can't forget the time when I went for a walk last summer.
-Actually, it’s a bit of a funny story. The weather was perfectly fine when we left the house.
+Script: I'll never forget this one time last summer. It’s a bit of a funny story, actually.
 
-But out of nowhere, the sky turned dark and it started to rain cats and dogs.
-We didn't have an umbrella, so we were totally panicked.
-Eventually, we had to run as fast as we could all the way back home.
-We were completely soaked, but it was such a hilarious and happy ending.
+The weather was perfectly fine when my wife and I left the house, but out of nowhere, it started raining cats and dogs! We didn't have an umbrella, so we were totally panicking.
 
-Looking back, it’s now a great memory that we often talk about.
-That’s pretty much the whole story about my memorable experience.
+We ended up sprinting all the way back home and got completely soaked. We were a mess, but it was such a hilarious and happy ending. It's a great memory we often talk about.

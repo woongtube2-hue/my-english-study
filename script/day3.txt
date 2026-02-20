@@ -1,35 +1,27 @@
-🏠 Day 3: 집(My Home)
-Q1. [Description] 집 구조 및 특징 묘사
-Question: Tell me about the house or apartment you live in. Where is it located? What does it look like and how many rooms are there?
+📅 Day 3: 집 (My Home)
+Q1. [Description]
+Question: I’d like to know about where you live. Tell me about your house or apartment. Where is it located? What does it look like? Give me a detailed description of your home.
 
-Script: Actually, I’m currently living in an apartment in Seoul. It’s a typical Korean apartment, but it’s very cozy and perfect for my family. Let me give you a quick tour of my place.
+Script: Well, let me give you a quick tour of my place! I’m currently living in a typical Korean apartment in Seoul, and it’s very cozy.
 
-First, the house has a master bedroom, two extra rooms, and a cozy living room. And then, there’s the kitchen and two bathrooms, which is perfect for me and my wife. In the living room, I have a recliner, which is my favorite piece of furniture. I really love it because it’s the best place to kick back after a long day.
+The layout is pretty standard—a master bedroom, two extra rooms, and a cozy living room. In the living room, I have my favorite piece of furniture: a recliner. It’s honestly the best place to kick back after a long day at the office.
 
-Also, in the master bedroom, there is a very large, high-end bed. Even though it was expensive, it was a great investment for my sleep. As for the other rooms, one is a dress room, and the other is my computer room. To be honest, this is my absolute favorite spot in the whole house. It’s my own private space where I can study, read books, and focus on my projects.
+My absolute favorite spot, though, is my computer room. It’s my own private sanctuary where I can focus on my projects. So, overall, I’m very satisfied with my home because it’s just so comfortable.
 
-So, overall, I’m very satisfied with my current home because it’s so comfortable. That’s about it for the description of my place.
+Q2. [Routine]
+Question: What do you usually do at home? Tell me about your typical routine from the moment you wake up or get home. Which room do you spend the most time in?
 
-Q2. [Routine/Detail] 집에서의 루틴
-Question: What do you usually do at home? Tell me about your typical routine at home. Which room do you spend the most time in?
+Script: To tell you the truth, since I work as a programmer, my home is where I truly recharge.
 
-Script: To tell you the truth, since I work as a programmer, my home is the best place to recharge. Lately, I've been trying to keep a consistent routine after work.
+When I get home, I first have dinner with my wife, and then we move to the living room to catch some TV. After that, we usually head to our own rooms for some "me time."
 
-First, when I get home, I have dinner with my wife in the kitchen. And then, we move to the living room to watch TV and take a short break. I usually sit on my recliner to relax during this time. After that, we each go to our own rooms to enjoy some personal time.
+That’s when I go to my computer room to study new technologies. Even on weekends, I try to stick to this self-development routine. So, I’d say I spend most of my time balancing relaxation and personal growth at home.
 
-This is when I go to my computer room. Also, I spend about one or two hours there every night for my personal growth. I usually study new technologies or read books to improve my skills.
+Q3. [Comparison]
+Question: How is your current home different from the house you lived in when you were a child? What are the biggest differences?
 
-On weekends, I tend to spend a lot of time in the master bedroom just relaxing on the bed. However, even on weekends, I try to spend some time in my computer room. I make an effort to follow the same self-development routine as I do on weekdays.
+Script: Wow, looking back, my home environment has changed drastically.
 
-So, overall, I spend most of my time balancing relaxation and personal growth at home. That’s my typical routine in my house.
+I grew up in a big house in the countryside with a yard and a rooftop. It was always noisy because I shared a room with my brothers, but it was fun!
 
-Q3. [Comparison] 과거의 집 vs 현재의 집
-Question: How is your current home different from the house you lived in when you were a child?
-
-Script: Let me see... looking back, my home has changed a lot. When I was a child, I lived in a house in the countryside. But now, as you know, I live in an apartment in a big city.
-
-Actually, the indoor layout is not that different. However, my childhood home was a big house, so it had a yard and a rooftop. I lived with my parents and I shared a room with my brothers. It was always noisy, but it was also fun.
-
-On the other hand, my life is totally different now. I live in an apartment, so there is no yard anymore. But the best part is that I live with my wife, and I have my own private room. I finally have my own computer room, and I love it.
-
-So, overall, the biggest difference is having my own private space. I miss the yard sometimes, but I like my current home more.
+Now, I live in a city apartment with no yard. But you know what? The best part is finally having my own private room. I miss the yard sometimes, but I definitely prefer the privacy and comfort of my current home.
