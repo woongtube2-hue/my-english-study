@@ -1,0 +1,27 @@
+📅 Day 10: 직장 생활 (Work)
+Q1. [Description]
+Question: You indicated in the survey that you work. Tell me about the company you work for. What kind of business do they do, and what is your role there? Give me a detailed description.
+
+Script: Well, to be honest, I work for a technology company located in Seoul. It’s a pretty dynamic place to work. My company mainly focuses on developing software and providing various IT solutions.
+
+As for my role, I work in the development team. To be specific, I handle various projects related to software systems. It can be quite challenging sometimes because I have to deal with complex problems, but it’s also very rewarding when I find a solution.
+
+Overall, I’m quite satisfied with my job because the atmosphere is very professional and I have great colleagues.
+
+Q2. [Routine]
+Question: I'd like to know about your typical day at work. What do you usually do from the moment you arrive until you leave the office? Give me a step-by-step description of your routine.
+
+Script: That's an interesting question. My daily routine at work is actually quite consistent.
+
+I usually arrive at the office around 9 AM. The first thing I do is grab a cup of coffee and check my emails to prioritize my tasks for the day. Then, I spend most of my time focusing on my assignments or attending team meetings to discuss our progress.
+
+After having lunch with my colleagues, I usually go for a short walk to get some fresh air. In the afternoon, I continue working on my projects until I finish my work around 6 or 7 PM. It’s a busy schedule, but I try my best to stay organized to avoid staying late.
+
+Q3. [Past Experience]
+Question: Tell me about a memorable project or an unexpected incident that happened at work. What exactly happened, and how did you handle the situation? Why was it so memorable?
+
+Script: I remember a time when our team had a major deadline for a big project last year. Everything seemed to be going well until we found a critical error just two days before the release.
+
+Everyone was in a total panic because we didn't have much time left. To handle the situation, we decided to stay late and work together as a team. I took the lead in analyzing the problem and suggested a few ways to fix it.
+
+It was a very stressful couple of days, but luckily, we managed to fix the issue and launch the project on time. Our manager was very impressed with our teamwork. Looking back, it was a tough experience, but I learned a lot about how to stay calm under pressure.

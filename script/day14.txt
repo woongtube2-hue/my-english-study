@@ -1,0 +1,20 @@
+드디어 마지막 코스네요! Day 14와 Day 15는 오픽 AL 달성을 위해 가장 중요한 '돌발 주제'와 '사회적 이슈'를 다룹니다. 어떤 질문이 나와도 당황하지 않도록 범용적인 스크립트로 구성했습니다.
+
+📅 Day 14: 돌발 주제 (Furniture & Recycling)
+Q1. [Description - Furniture]
+Question: Tell me about the furniture you have in your home. What is your favorite piece of furniture, and why do you like it?
+
+Script: Well, to be honest, I prefer a minimalist style, so I don't have that much furniture in my house. But if I had to pick a favorite, it would definitely be my recliner chair in the living room.
+
+As a programmer, I spend all day sitting in an uncomfortable office chair. So, when I come home, all I want to do is sink into my soft recliner. It’s perfect for watching YouTube or just taking a quick nap. It’s ergonomically designed and provides great support for my back.
+
+I think it's the most essential piece of furniture for my relaxation. I can't imagine my living room without it.
+
+Q2. [Description - Recycling]
+Question: How do people in your country recycle? Tell me about the recycling system in your neighborhood in detail.
+
+Script: That's an interesting question. In Korea, we take recycling very seriously, and the system is quite strict.
+
+In my apartment complex, we have a designated area for recycling. We have to separate everything into different bins: paper, plastic, glass, and cans. We also have to separate food waste and general trash. It can be a bit of a hassle sometimes, but everyone follows the rules because it's good for the environment.
+
+I usually take out the recycling once or twice a week. It feels good to see the trash properly organized. I believe this system is very effective in reducing waste.
